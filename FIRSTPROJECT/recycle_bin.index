@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_4cGM4BwPEe-iDci9mI-_5w" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_6hRe8BnFEe-Zdq6ALizRhw" path="" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_7k0P8CMjEe-409Qvcqsqlw" path="" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_ZyvzQBnFEe-Zdq6ALizRhw" path="" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_nPryIBnIEe-Zdq6ALizRhw" path="" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_A73rMBnDEe-Zdq6ALizRhw" path="" type="METADATA_FILE_EXCEL"/>
+  <deletedItems id="_ndfeQBnAEe-Zdq6ALizRhw" path="" type="METADATA_FILE_EXCEL"/>
+  <deletedItems id="_ESSMwCFrEe-fM6rmQSDzXA" path="" type="PROCESS"/>
+  <deletedItems id="_SS4kMCIwEe-WULWGEu1GOQ" path="" type="PROCESS"/>
+  <deletedItems id="_ex4-wB2fEe-iDci9mI-_5w" path="" type="repository.metadata.tacokit.jdbc.jdbcdatastore"/>
+  <deletedItems id="_hMvRwB25Ee-fM6rmQSDzXA" path="" type="repository.metadata.tacokit.jdbc.jdbcdatastore"/>
+  <deletedItems id="_qp0dwB2ZEe-iDci9mI-_5w" path="" type="repository.metadata.tacokit.jdbc.jdbcdatastore"/>
+</recyclebin:RecycleBin>
