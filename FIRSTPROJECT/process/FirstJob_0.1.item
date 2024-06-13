@@ -98,7 +98,7 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
   </parameters>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_2"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_eccWUBv2Ee-iDci9mI-_5w"/>
@@ -163,7 +163,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="160">
+  <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplicate_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="mySchema" name="tReplicate_1">
@@ -171,7 +171,7 @@
       <column comment="" key="false" length="15" name="department" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192">
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_2"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_kVNVIBm0Ee-lIP0ii6hw4w"/>
@@ -240,7 +240,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="96">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_laxWUBzmEe-iDci9mI-_5w"/>
@@ -318,15 +318,15 @@
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_2"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;64;128"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_526a5af4-0573-447a-9357-356275ace2d5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Q5bGc5iQWfMZpjFX8zubHkli422yU72BJaUa/p6jaQN1J4CCNEkj8RKGegF7/E//r2iwm8LrEe5q&#13;
-dJwF3+cjuA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0c896ecc-fb5b-4148-bfac-89af37cc898c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bBXZY9RIZFyple8Vxdmzt9y2DcUTf1c0qaZUkF2gWNxoAJoGKaIta+JdJWo5pF5QS9Cm4fFMGdTs&#13;
-VkGrC2hzYA==</DigestValue></Reference></SignedInfo><SignatureValue>dJmkA6YbfIFcPCaqDsOwJ0M7cnF3XfqSlMLegPGqLRhqfICNHvrBW316ijPky1DBRxyV+UyjYjfN&#13;
-0owOIvhlkh9VChMFgsj2I/PCW7F/HLodseDbtqyEfLF06XwM2UzI2p1d4UQt27V2rLAtd+88dx2z&#13;
-MqcuG4FmNvN0tmdoqFv4KB9/BY+wsS3oZOl76u3cqSeHXCyabW3p8WEmoiYQkOQRKYuORg25V4vN&#13;
-i7XQ2gclz9kekSSaifo8A+M9H2OUK6JEbd6liPnLbfh9ZUzhChOjk3H0wSB2EkCwlsVcILMsLRqz&#13;
-1tTzLLvZdpo5EB8ZSgsSGud9vBIdtC1K35nNdg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_07d7755e-9712-47e9-a5a1-df7d5cbb46a6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+75w0s969iphcZsTd/eRX7x8//QIk+uFZDYzl88FYNAfG2/gUcWh7ZRswEl30E3hwkq1kabBPTHl&#13;
+25jb8FdWfQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7c283b42-943f-4f6e-adb9-0ac1fbc2b1fd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zLMXz2chQfMLMIZ+h5ANHbI+kLA1PYPow/eTIGJ8UHPHV2trlHBA0TnBpDTj/7bY4PoCUjo5tnvS&#13;
+/aC9Yc6MFQ==</DigestValue></Reference></SignedInfo><SignatureValue>YGGWAeud+4hkW0FpK/Y93ZJBPgffXwku15KbFEMsFT2zOAb/dec1GVtxS6sqlHL2+DmocXKHQY+q&#13;
+3cHLLMp4rqK9rj5nejXdVQYuHpRZp4YKcU3FcGWnY0TInAJG1wHifXJp4PQPYc9bFuRVG6C8mKiZ&#13;
+OOaszEdAFFoIjTiDJi6wdnDeprUnwWSZ6I71WUrr7lsGudhn4ZtNX4+f9jE4yRIBUCGy6OXDuogp&#13;
+zXyzBQuoON1dKz7Clx6yFuhm6MCpsocz4BaAIqX//jbCceQqzPoPYre/xxq2aT3iT+QCqQOlNLLZ&#13;
+1FnynBa99t76hI+L9FGe7MGCE4N7ErMPpMl9pQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -348,4 +348,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0c896ecc-fb5b-4148-bfac-89af37cc898c" Target="#_526a5af4-0573-447a-9357-356275ace2d5"><Timestamp>2024-06-10 04:57:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7c283b42-943f-4f6e-adb9-0ac1fbc2b1fd" Target="#_07d7755e-9712-47e9-a5a1-df7d5cbb46a6"><Timestamp>2024-06-13 05:59:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
