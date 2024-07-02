@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_gJfC8RmxEe-lIP0ii6hw4w" label="FirstProject" description="24-05" language="java" technicalLabel="FIRSTPROJECT" author="_gJfC8hmxEe-lIP0ii6hw4w" productVersion="Talend Cloud Data Management Platform-8.0.1.20240418_1105-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/jayForPredoole/RepoForTalend.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_gJfC8RmxEe-lIP0ii6hw4w" label="FirstProject" description="24-05" language="java" technicalLabel="FIRSTPROJECT" author="_gJfC8hmxEe-lIP0ii6hw4w" productVersion="Talend Cloud Data Management Platform-8.0.1.20240619_0909-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/jayForPredoole/RepoForTalend.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <componentsSettings xmi:id="_0k0X0DgzEe-f25a-bQUfNQ" name="DI|tSAPIDocInput" family="Business/SAP"/>
+    <componentsSettings xmi:id="_1EbsADgzEe-f25a-bQUfNQ" name="DI|tAccessBulkExec" family="Databases/DB Specifics/Access"/>
+    <componentsSettings xmi:id="_1EbsATgzEe-f25a-bQUfNQ" name="DI|tAccessOutputBulkExec" family="Databases/DB Specifics/Access"/>
+    <componentsSettings xmi:id="_1n6zkDgzEe-f25a-bQUfNQ" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_1oBhQDgzEe-f25a-bQUfNQ" name="DI|tArrayIn" family="Technical"/>
+    <componentsSettings xmi:id="_1oBhQTgzEe-f25a-bQUfNQ" name="DI|tArray" family="Technical"/>
+    <componentsSettings xmi:id="_1oBhQjgzEe-f25a-bQUfNQ" name="DI|tHashOutput" family="Technical"/>
     <migrationTask xmi:id="_gLBUABmxEe-lIP0ii6hw4w" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_gJfC8hmxEe-lIP0ii6hw4w" login="c8sa94il0u@trial58058.us.talend.com" firstName="Jay" lastName="Potter" type="DQ"/>
