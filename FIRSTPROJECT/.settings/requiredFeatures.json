@@ -2,7 +2,13 @@
   "version" : "1.0.0",
   "disable" : null,
   "requiredInstallableUnits" : [ {
+    "id" : "org.talend.lite.bd.dbr.73x.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.designer.component.rs.consumer.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.cdc.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.testcontainer.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tcompv0.snowflakeee.feature.feature.group"
   } ]
